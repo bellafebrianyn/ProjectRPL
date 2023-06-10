@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/bg-dasar.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar {
+  background-color: rgba(242, 242, 242, 0.8);
+  padding: 20px;
+  text-align: left;
+  flex-basis: 20%;
+}
+
+.sidebar-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  flex-basis: 80%;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #7edad2;
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 20px; /* Sesuaikan dengan tinggi button */
+}
+
+.big-title {
+  text-align: left;
+  font-family: "Bebas Neue", cursive;
+  font-size: 120px;
+  color: #7edad2;
+  line-height: 0.0005;
+}
+
+.subtitle {
+  text-align: left;
+  font-family: "Bebas Neue", cursive;
+  font-size: 120px;
+  color: #7edad2;
+  margin-top: 0.5px;
+}
+
+.big-title span {
+  color: black; /* Warna tulisan "MONITORING" diubah menjadi hitam */
+}
+
+.paragraph {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 0.5px;
+}
+
+.bottom-buttons {
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 50px;
+  justify-content: center;
+}
+
+.bottom-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #7edad2;
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  border-radius: 50px;
+  width: 120px; /* Menentukan lebar tombol */
+  height: 30px; /* Menentukan tinggi tombol */
+  line-height: 30px; /* Memastikan teks berada di tengah tombol */
+  text-align: center;
+}
